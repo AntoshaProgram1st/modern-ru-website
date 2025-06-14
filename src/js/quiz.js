@@ -92,7 +92,7 @@
             quizModal.appendChild(resultEl);
         }
         resultEl.style.display = '';
-        fetch('../data/mfoList.json')
+        fetch('/data/mfoList.json')
             .then(r => r.json())
             .then(data => {
                 const mfo = (data.mfoList && data.mfoList.length) ? data.mfoList[0] : null;

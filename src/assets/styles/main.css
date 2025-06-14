@@ -521,7 +521,7 @@ h2 {
 /* ...залишити існуючі стилі для цих блоків, якщо вони вже мінімалістичні... */
 
 .hero-section {
-    background: linear-gradient(90deg, rgba(247, 248, 250, 0.96) 33%, rgba(255, 255, 255, 0.02) 100%), url("../images/zastavka.png") center center / cover no-repeat;
+    background: linear-gradient(90deg, rgba(247, 248, 250, 0.96) 33%, rgba(255, 255, 255, 0.02) 100%), url("/src/assets/images/zastavka.png") center center / cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -1318,7 +1318,6 @@ h2 {
     margin-top: 1em;
     font-size: 1.08em;
     box-shadow: 0 1px 6px rgba(34,197,94,0.09);
-    animation: fadeInUp 0.5s cubic-bezier(.4,0,.2,1);
 }
 .review-form input.error,
 .review-form textarea.error {

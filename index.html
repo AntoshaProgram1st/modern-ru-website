@@ -7,15 +7,15 @@
     <meta name="yandex-verification" content="ваш_код">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ваш-домен.рф/">
-    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="icon" type="image/png" href="src/assets/favicon.png">
     <meta name="keywords" content="микрозаймы, займы онлайн, МФО, быстрые деньги, срочные займы, Россия, рубли, подбор займов, рейтинг МФО, отзывы, рекомендации">
     <meta name="currency" content="RUB">
     <title>Подбор микрозаймов в России | Быстрое одобрение</title>
-    <link rel="stylesheet" href="../assets/styles/base.css">
-    <link rel="stylesheet" href="../assets/styles/components.css">
-    <link rel="stylesheet" href="../assets/styles/main.css">
-    <script src="../js/quiz.js" defer></script>
-    <script src="../js/main.js" defer></script>
+    <link rel="stylesheet" href="src/assets/styles/base.css">
+    <link rel="stylesheet" href="src/assets/styles/components.css">
+    <link rel="stylesheet" href="src/assets/styles/main.css">
+    <script src="src/js/quiz.js" defer></script>
+    <script src="src/js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -166,7 +166,7 @@
                 <h2 class="help-title">Нужна помощь в получении денежных средств?</h2>
                 <p class="help-description">
                     Заполните данные, и наш менеджер поможет Вам взять необходимую сумму!<br>
-                    Или <a href="../assets/docs/recommendations.pdf" class="pdf-link">скачайте файл PDF</a> формата с нашими рекомендациями и контактами! Мы обязательно Вам поможем!
+                    Или <a href="src/assets/docs/recommendations.pdf" class="pdf-link">скачайте файл PDF</a> формата с нашими рекомендациями и контактами! Мы обязательно Вам поможем!
                 </p>
                 <form class="help-form" id="helpForm">
                     <div class="form-grid">
@@ -194,9 +194,9 @@
             </div>
         </section>
     </main>
-    <script src="../js/mfo.js"></script>
-    <script src="../js/reviews.js"></script>
-    <script src="../js/offers.js"></script>
+    <script src="src/js/mfo.js"></script>
+    <script src="src/js/reviews.js"></script>
+    <script src="src/js/offers.js"></script>
     <script>
     // Новий скрипт для рендерингу офферів
     async function renderNewOffers() {
@@ -204,7 +204,7 @@
         const offersList = document.getElementById('offersList');
         if (!priorityContainer || !offersList) return;
         try {
-            const res = await fetch('../data/mfoList.json', {cache: 'no-store'});
+            const res = await fetch('/data/mfoList.json', {cache: 'no-store'});
             const data = await res.json();
             const mfoList = data.mfoList || [];
             // Пріоритетний оффер
@@ -212,7 +212,7 @@
                 const top = mfoList[0];
                 priorityContainer.innerHTML = `
                     <div class="priority-offer-card">
-                        <div class="priority-offer-logo"><img src="../assets/images/mfo-logos/${top.logo}" alt="${top.name}"></div>
+                        <div class="priority-offer-logo"><img src="src/assets/images/mfo-logos/${top.logo}" alt="${top.name}"></div>
                         <div class="priority-offer-info">
                             <div class="priority-offer-title">${top.name}</div>
                             <div class="priority-offer-rate">Ставка: <b>${top.minRate || '—'}</b></div>
@@ -228,7 +228,7 @@
             mfoList.slice(1, 20).forEach(mfo => {
                 offersList.innerHTML += `
                     <div class="offer-simple-card">
-                        <div class="offer-simple-logo"><img src="../assets/images/mfo-logos/${mfo.logo}" alt="${mfo.name}"></div>
+                        <div class="offer-simple-logo"><img src="src/assets/images/mfo-logos/${mfo.logo}" alt="${mfo.name}"></div>
                         <div class="offer-simple-title">${mfo.name}</div>
                         <div class="offer-simple-rate">Ставка: <b>${mfo.minRate || '—'}</b></div>
                         <div class="offer-simple-term">Срок: <b>${mfo.term || '—'}</b></div>
