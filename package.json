@@ -1,0 +1,16 @@
+{
+  "name": "modern-ru-website",
+  "version": "1.0.0",
+  "description": "A modern adaptive website focused on the Russian market.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src/pages",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

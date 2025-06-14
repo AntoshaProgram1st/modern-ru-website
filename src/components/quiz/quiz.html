@@ -1,0 +1,27 @@
+<div class="quiz" id="quiz">
+    <div class="quiz__header">
+        <button class="quiz__nav-btn quiz__nav-btn--back js-quiz-back">←</button>
+        <div class="quiz__progress">
+            <div class="quiz__progress-bar" id="quizProgress"></div>
+        </div>
+        <button class="quiz__nav-btn quiz__nav-btn--close js-quiz-close">×</button>
+    </div>
+
+    <div class="quiz__content">
+        <div class="quiz__step quiz__step--active" data-step="1">
+            <h3 class="quiz__title">Укажите ваш возраст</h3>
+            <div class="quiz__options">
+                <label class="quiz-card">
+                    <input class="quiz-card__input" type="radio" name="age" value="18-25">
+                    <div class="quiz-card__content">
+                        <span class="quiz-card__icon">👶</span>
+                        <span class="quiz-card__text">18-25 лет</span>
+                    </div>
+                </label>
+                <!-- Similar cards for other age options -->
+            </div>
+        </div>
+        
+        <!-- Similar structure for other steps -->
+    </div>
+</div>

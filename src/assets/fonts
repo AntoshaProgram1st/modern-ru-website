@@ -1,0 +1,23 @@
+modern-ru-website
+├── src
+│   ├── assets
+│   │   ├── fonts
+│   │   └── styles
+│   │       ├── base.css
+│   │       ├── components.css
+│   │       ├── layout.css
+│   │       └── main.css
+│   ├── js
+│   │   ├── main.js
+│   │   ├── components
+│   │   │   └── index.js
+│   │   └── utils
+│   │       └── index.js
+│   └── pages
+│       ├── index.html
+│       └── components
+│           ├── header.html
+│           └── footer.html
+├── .gitignore
+├── package.json
+└── README.md

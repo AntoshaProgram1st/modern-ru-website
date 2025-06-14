@@ -1,0 +1,157 @@
+/* Base styles for the website */
+
+/* CSS Variables */
+:root {
+    /* Colors */
+    --color-primary: #2193b0;
+    --color-secondary: #6dd5ed;
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-bg: #fff;
+    --color-bg-light: #f8f9fa;
+    --color-border: #eee;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    /* Layout */
+    --header-height: 80px;
+    --container-width: 1200px;
+    --border-radius: 8px;
+
+    /* Responsive font sizes */
+    --h1-size: clamp(2rem, 5vw, 3.5rem);
+    --h2-size: clamp(1.5rem, 3vw, 2.5rem);
+    --h3-size: clamp(1.2rem, 2vw, 1.8rem);
+    --p-size: clamp(0.9rem, 1.5vw, 1rem);
+    --small-text: clamp(0.8rem, 1.2vw, 0.9rem);
+
+    /* Responsive spacing */
+    --space-xs: clamp(0.5rem, 1vw, 0.75rem);
+    --space-sm: clamp(0.75rem, 1.5vw, 1rem);
+    --space-md: clamp(1rem, 2vw, 1.5rem);
+    --space-lg: clamp(1.5rem, 3vw, 2rem);
+    --space-xl: clamp(2rem, 4vw, 3rem);
+
+    /* Container sizes */
+    --container-width: min(1400px, 95vw);
+    --section-padding: var(--space-lg);
+    --card-padding: var(--space-md);
+    
+    /* Other responsive values */
+    --border-radius: clamp(8px, 1vw, 12px);
+    --header-height: clamp(60px, 8vh, 80px);
+
+    /* Адаптивні розміри viewport */
+    --vh: 1vh;
+    --vw: 1vw;
+
+    /* Базові розміри */
+    --max-width: min(1400px, 90vw);
+    --header-height: clamp(60px, 8vh, 80px);
+    --section-padding: clamp(20px, 3vw, 40px);
+
+    /* Розміри шрифтів */
+    --font-h1: clamp(28px, 4vw, 48px);
+    --font-h2: clamp(24px, 3vw, 36px);
+    --font-h3: clamp(18px, 2.5vw, 24px);
+    --font-base: clamp(14px, 1.5vw, 16px);
+    --font-small: clamp(12px, 1.2vw, 14px);
+
+    /* Відступи */
+    --space-xs: clamp(4px, 0.5vw, 8px);
+    --space-sm: clamp(8px, 1vw, 16px);
+    --space-md: clamp(16px, 2vw, 24px);
+    --space-lg: clamp(24px, 3vw, 32px);
+
+    /* Розміри компонентів */
+    --card-width: clamp(280px, 30vw, 400px);
+    --input-height: clamp(40px, 5vh, 50px);
+    --button-height: clamp(36px, 4vh, 46px);
+
+    /* Розміри viewport */
+    --screen-height: 100vh;
+    --screen-width: 100vw;
+
+    /* Адаптивні контейнери */
+    --section-width: clamp(300px, 90vw, 1400px);
+    --content-width: clamp(280px, 85vw, 1200px);
+    --card-width: clamp(250px, 45vw, 400px);
+
+    /* Адаптивні відступи */
+    --spacing: clamp(10px, 2vw, 30px);
+    --gap: clamp(15px, 3vw, 40px);
+
+    /* Адаптивні шрифти */
+    --h1-size: clamp(24px, 5vw, 48px);
+    --h2-size: clamp(20px, 4vw, 36px);
+    --h3-size: clamp(16px, 3vw, 24px);
+    --text-size: clamp(14px, 2vw, 16px);
+}
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-text);
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    font-size: var(--p-size);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: var(--spacing-md);
+    color: #2c3e50;
+}
+
+h1 { font-size: var(--h1-size); }
+h2 { font-size: var(--h2-size); }
+h3 { font-size: var(--h3-size); }
+
+p {
+    margin-bottom: var(--spacing-md);
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.section {
+    padding: var(--spacing-xl) 0;
+}
+
+.section-container {
+    width: var(--section-width);
+    margin: 0 auto;
+    padding: var(--spacing);
+}

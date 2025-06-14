@@ -1,0 +1,49 @@
+/* Layout styles for the modern Russian website */
+
+/* Grid system */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col {
+    padding: 15px;
+    flex: 1;
+}
+
+/* Header and footer styles */
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Section styles */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}

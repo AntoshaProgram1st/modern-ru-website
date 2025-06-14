@@ -1,0 +1,46 @@
+.quiz {
+    $root: &;
+    
+    &__container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+
+    &__step {
+        &--active {
+            display: block;
+        }
+    }
+
+    &__options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+.quiz-card {
+    &__input {
+        position: absolute;
+        opacity: 0;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        transition: all 0.2s ease;
+
+        #{$root}__input:checked + & {
+            border-color: var(--primary-color);
+            background: var(--primary-light);
+        }
+    }
+}

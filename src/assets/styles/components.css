@@ -1,0 +1,196 @@
+/* Header & Navigation */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+/* Button styles */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button-primary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Card styles */
+.card {
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 14px;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+}
+
+/* Hero section styles */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2rem;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+}
+
+/* Call to action button styles */
+.cta-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(33,147,176,0.3);
+}
+
+/* Quiz container styles */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Offer card styles */
+.offer-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.offer-card.premium {
+    border: 2px solid #FFD700;
+    background: linear-gradient(45deg, #ffffff 0%, #f9f9f9 100%);
+}
+
+.offers-section {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.featured-offer {
+    margin-bottom: 40px;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.offer-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat .label {
+    color: #666;
+    font-size: 0.9em;
+    display: block;
+}
+
+.stat .value {
+    font-weight: bold;
+    color: #2193b0;
+    font-size: 1.1em;
+}
+
+.offers-filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: #2193b0;
+    color: white;
+    border-color: #2193b0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,339 @@
+{
+  "mfoList": [
+    {
+      "name": "Zaimer",
+      "logo": "zaimer.png",
+      "minRate": "до 0,8% в день",
+      "term": "до 30 дней",
+      "license": "№2310045000115",
+      "address": "Москва, ул. Большая Семеновская, д. 19",
+      "inn": "7706762474",
+      "ogrn": "1107746883187",
+      "phone": "8 800 700-92-07",
+      "url": "https://site.ru/offer/zaimer"
+    },
+    {
+      "name": "еКапуста",
+      "logo": "ekapusta.png",
+      "minRate": "до 0,8% в день",
+      "term": "7–30 дней",
+      "license": "№2120754001243",
+      "address": "Новосибирск, ул. Гнесиных, д. 10/1",
+      "inn": "5408292849",
+      "ogrn": "1125476023298",
+      "phone": "8 800 550-55-99",
+      "url": "https://site.ru/offer/ekapusta"
+    },
+    {
+      "name": "Finters",
+      "logo": "finters.png",
+      "minRate": "до 0,8 в день",
+      "term": "5–30 дней",
+      "license": "№2310045000015",
+      "address": "Москва, Дербеневская наб., д. 7",
+      "inn": "7725520440",
+      "ogrn": "1047796714404",
+      "phone": "8 800 700-42-11",
+      "url": "https://site.ru/offer/finters"
+    },
+    {
+      "name": "MoneyMan",
+      "logo": "moneyman.png",
+      "minRate": "до 0,8% в день",
+      "term": "до 30 дней",
+      "license": "№2110177000478",
+      "address": "Москва, ул. Василисы Кожиной, д. 1",
+      "inn": "7704784072",
+      "ogrn": "1117746442670",
+      "phone": "8 800 775-55-76",
+      "url": "https://site.ru/offer/moneyman"
+    },
+    {
+      "name": "Fin5",
+      "logo": "fin5.png",
+      "minRate": "до 0,8% в день",
+      "term": "7–30 дней",
+      "license": "№2303336010009",
+      "address": "Самара, ул. Победы, д. 86",
+      "inn": "6318072015",
+      "ogrn": "1236300018460",
+      "phone": "8 800 333-32-67",
+      "url": "https://site.ru/offer/fin5"
+    },
+    {
+      "name": "Быстроденьги",
+      "logo": "bystrodengi.png",
+      "minRate": "до 0,8% в день",
+      "term": "12–30 дней",
+      "license": "№2110573000002",
+      "address": "Москва, ул. Барклая, д. 6",
+      "inn": "7325081622",
+      "ogrn": "1087325005899",
+      "phone": "8 800 700-43-44",
+      "url": "https://site.ru/offer/bystrodengi"
+    },
+    {
+      "name": "Boostra",
+      "logo": "boostra.png",
+      "minRate": "до 0,8% в день",
+      "term": "1–16 дней",
+      "license": "№2303045009968",
+      "address": "Москва, Ленинградский пр-т, д. 50",
+      "inn": "9714011290",
+      "ogrn": "1237700365506",
+      "phone": "8 800 333-30-73",
+      "url": "https://site.ru/offer/boostra"
+    },
+    {
+      "name": "Деньги OK",
+      "logo": "dengi-ok.png",
+      "minRate": "до 0,8% в день",
+      "term": "10–30 дней",
+      "license": "№2403045010065",
+      "address": "Москва, ул. Перерва, д. 16",
+      "inn": "9723229832",
+      "ogrn": "1247700335365",
+      "phone": "+7 928 400-44-18",
+      "url": "https://site.ru/offer/dengi-ok"
+    },
+    {
+      "name": "Green Money",
+      "logo": "green-money.png",
+      "minRate": "до 0,8% в день",
+      "term": "до 30 дней",
+      "license": "№1903045009345",
+      "address": "Москва, Старомонетный пер., д. 3",
+      "inn": "7704493556",
+      "ogrn": "1197746381876",
+      "phone": "8 800 505-44-00",
+      "url": "https://site.ru/offer/green-money"
+    },
+    {
+      "name": "Joy Money",
+      "logo": "joy-money.png",
+      "minRate": "до 0,8% в день",
+      "term": "3–168 дней",
+      "license": "№651403550005450",
+      "address": "Новосибирск, ул. Советская, д. 12",
+      "inn": "5407496776",
+      "ogrn": "1145476064711",
+      "phone": "8 800 707-22-43",
+      "url": "https://site.ru/offer/joy-money"
+    },
+    {
+      "name": "Kapitalina",
+      "logo": "kapitalina.png",
+      "minRate": "до 0,8% в день",
+      "term": "1–31 день",
+      "license": "№2103392009665",
+      "address": "Казань, ул. Лукницкого, д. 2",
+      "inn": "1656117090",
+      "ogrn": "1211600001821",
+      "phone": "8 800 600-82-80",
+      "url": "https://site.ru/offer/kapitalina"
+    },
+    {
+      "name": "Kredito24",
+      "logo": "kredito24.png",
+      "minRate": "до 0,8% в день",
+      "term": "16–60 дней",
+      "license": "№651303552003006",
+      "address": "Москва, ул. Краснопролетарская, д. 16",
+      "inn": "5501246928",
+      "ogrn": "1135543003793",
+      "phone": "+7 495 225-90-63",
+      "url": "https://site.ru/offer/kredito24"
+    },
+    {
+      "name": "Max Credit",
+      "logo": "max-credit.png",
+      "minRate": "до 0,8% в день",
+      "term": "5–30 дней",
+      "license": "№2303045009991",
+      "address": "Санкт-Петербург, ул. Шпалерная, д. 8",
+      "inn": "9703151232",
+      "ogrn": "1237700493216",
+      "phone": "8 800 555-95-32",
+      "url": "https://site.ru/offer/max-credit"
+    },
+    {
+      "name": "Привет, сосед!",
+      "logo": "privet-sosed.png",
+      "minRate": "от 0% в день",
+      "term": "до 30 дней",
+      "license": "№2203045009920",
+      "address": "Москва, ул. Барклая, д. 6",
+      "inn": "7743384078",
+      "ogrn": "1227700365815",
+      "phone": "8 800 700-12-06",
+      "url": "https://site.ru/offer/privet-sosed"
+    },
+    {
+      "name": "Срочноденьги",
+      "logo": "srochnodengi.png",
+      "minRate": "до 0,8% в день",
+      "term": "1–30 дней",
+      "license": "№2110552000304",
+      "address": "Нижний Новгород, ул. Тимирязева, д. 15/2",
+      "inn": "5260271530",
+      "ogrn": "1105260001857",
+      "phone": "8 800 100-13-63",
+      "url": "https://site.ru/offer/srochnodengi"
+    },
+    {
+      "name": "Турбозайм",
+      "logo": "turbosaim.png",
+      "minRate": "до 0,8% в день",
+      "term": "7–30 дней",
+      "license": "№651303045003951",
+      "address": "Москва, 1-й Магистральный туп., д. 11",
+      "inn": "7702820127",
+      "ogrn": "1137746702367",
+      "phone": "+7 499 951-91-80",
+      "url": "https://site.ru/offer/turbosaim"
+    },
+    {
+      "name": "Webbankir",
+      "logo": "webbankir.png",
+      "minRate": "до 0,8% в день",
+      "term": "7–30 дней",
+      "license": "№2120177002077",
+      "address": "Москва, ул. Соколово-Мещерская, д. 29",
+      "inn": "7733812126",
+      "ogrn": "1127746630846",
+      "phone": "8 800 775-54-54",
+      "url": "https://site.ru/offer/webbankir"
+    },
+    {
+      "name": "Webzaim",
+      "logo": "webzaim.png",
+      "minRate": "до 0,8% в день",
+      "term": "7–30 дней",
+      "license": "№19-035-50-009325",
+      "address": "Москва, Дербеневская наб., д. 7",
+      "inn": "5407973316",
+      "ogrn": "1195476007605",
+      "phone": "8 800 700-87-06",
+      "url": "https://site.ru/offer/webzaim"
+    },
+    {
+      "name": "Умные Наличные",
+      "logo": "umnye-nalichnye.png",
+      "minRate": "до 0,8% в день",
+      "term": "до 30 дней",
+      "license": "№2403140010047",
+      "address": "Москва, Полесский пр-д, д. 16",
+      "inn": "7802948882",
+      "ogrn": "1247800001756",
+      "phone": "8 800 333-02-73",
+      "url": "https://site.ru/offer/umnye-nalichnye"
+    }
+  ],
+  "mfoInfo": [
+    {
+      "name": "Быстроденьги",
+      "logo": "bystrodengi.png",
+      "url": "https://site.ru/offer/bystrodengi",
+      "license": "№2110573000002",
+      "phone": "8 800 700-43-44"
+    },
+    {
+      "name": "Boostra",
+      "logo": "boostra.png",
+      "url": "https://site.ru/offer/boostra",
+      "license": "№2303045009968",
+      "phone": "8 800 333-30-73"
+    },
+    {
+      "name": "Деньги OK",
+      "logo": "dengi-ok.png",
+      "url": "https://site.ru/offer/dengi-ok",
+      "license": "№2403045010065",
+      "phone": "+7 928 400-44-18"
+    },
+    {
+      "name": "еКапуста",
+      "logo": "ekapusta.png",
+      "url": "https://site.ru/offer/ekapusta",
+      "license": "№2120754001243",
+      "phone": "8 800 550-55-99"
+    },
+    {
+      "name": "Fin5",
+      "logo": "fin5.png",
+      "url": "https://site.ru/offer/fin5",
+      "license": "№2303336010009",
+      "phone": "8 800 333-32-67"
+    },
+    {
+      "name": "Finters",
+      "logo": "finters.png",
+      "url": "https://site.ru/offer/finters",
+      "license": "№2310045000015",
+      "phone": "8 800 700-42-11"
+    },
+    {
+      "name": "Green Money",
+      "logo": "green-money.png",
+      "url": "https://site.ru/offer/green-money",
+      "license": "№1903045009345",
+      "phone": "8 800 505-44-00"
+    },
+    {
+      "name": "Joy Money",
+      "logo": "joy-money.png",
+      "url": "https://site.ru/offer/joy-money",
+      "license": "№651403550005450",
+      "phone": "8 800 707-22-43"
+    },
+    {
+      "name": "Kapitalina",
+      "logo": "kapitalina.png",
+      "url": "https://site.ru/offer/kapitalina",
+      "license": "№2103392009665",
+      "phone": "8 800 600-82-80"
+    },
+    {
+      "name": "Kredito24",
+      "logo": "kredito24.png",
+      "url": "https://site.ru/offer/kredito24",
+      "license": "№651303552003006",
+      "phone": "+7 495 225-90-63"
+    },
+    {
+      "name": "Max Credit",
+      "logo": "max-credit.png",
+      "url": "https://site.ru/offer/max-credit",
+      "license": "№2303045009991",
+      "phone": "8 800 555-95-32"
+    },
+    {
+      "name": "MoneyMan",
+      "logo": "moneyman.png",
+      "url": "https://site.ru/offer/moneyman",
+      "license": "№2110177000478",
+      "phone": "8 800 775-55-76"
+    },
+    {
+      "name": "Привет, сосед!",
+      "logo": "privet-sosed.png",
+      "url": "https://site.ru/offer/privet-sosed",
+      "license": "№2203045009920",
+      "phone": "8 800 700-12-06"
+    },
+    {
+      "name": "Срочноденьги",
+      "logo": "srochnodengi.png",
+      "url": "https://site.ru/offer/srochnodengi",
+      "license": "№2110552000304",
+      "phone": "8 800 100-13-63"
+    },
+    {
+      "name": "Турбозайм",
+      "logo": "turbosaim.png",
+      "url": "https://site.ru/offer/turbosaim",
+      "license": "№651303045003951",
+      "phone": "+7 499 951-91-80"
+    }
+  ]
+}
