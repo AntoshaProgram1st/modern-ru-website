@@ -4,7 +4,7 @@ async function renderNewOffers() {
     const offersList = document.getElementById('offersList');
     if (!priorityContainer || !offersList) return;
     try {
-        const res = await fetch('/data/mfoList.json', {cache: 'no-store'});
+        const res = await fetch('data/mfoList.json', {cache: 'no-store'});
         const data = await res.json();
         let mfoList = data.mfoList || [];
         // Сортуємо за priority (id), якщо є

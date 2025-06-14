@@ -1,6 +1,6 @@
 async function loadMfoList() {
     try {
-        const response = await fetch('/data/mfoList.json', {cache: 'no-store'});
+        const response = await fetch('data/mfoList.json', {cache: 'no-store'});
         const data = await response.json();
         const mfoList = data.mfoList || [];
         const mfoGrid = document.getElementById('mfoGrid');

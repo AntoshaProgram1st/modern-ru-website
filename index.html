@@ -204,7 +204,7 @@
         const offersList = document.getElementById('offersList');
         if (!priorityContainer || !offersList) return;
         try {
-            const res = await fetch('/data/mfoList.json', {cache: 'no-store'});
+            const res = await fetch('data/mfoList.json', {cache: 'no-store'});
             const data = await res.json();
             const mfoList = data.mfoList || [];
             // Пріоритетний оффер
