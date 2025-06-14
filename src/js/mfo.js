@@ -19,7 +19,7 @@ async function loadMfoList() {
         });
     } catch (error) {
         const mfoGrid = document.getElementById('mfoGrid');
-        if (mfoGrid) mfoGrid.innerHTML = '<p style="color:#b00;font-size:1.1em;">Не удалось загрузить список МФО.</p>';
+        if (mfoGrid) mfoGrid.innerHTML = '<p style="color:#b00;font-size:1.1em;">Не вдалося завантажити список МФО.</p>';
     }
 }
 window.loadMfoList = loadMfoList;
