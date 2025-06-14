@@ -20,7 +20,7 @@ async function renderNewOffers() {
             const url = top.customUrl || top.url || '#';
             priorityContainer.innerHTML = `
                 <div class="priority-offer-card">
-                    <div class="priority-offer-logo"><img src="/src/assets/images/mfo-logos/${top.logo}" alt="${top.name}"></div>
+                    <div class="priority-offer-logo"><img src="src/assets/images/mfo-logos/${top.logo}" alt="${top.name}"></div>
                     <div class="priority-offer-info">
                         <div class="priority-offer-title">${top.name}</div>
                         <div class="priority-offer-rate">Ставка: <b>${top.minRate || '—'}</b></div>
@@ -37,7 +37,7 @@ async function renderNewOffers() {
             const url = mfo.customUrl || mfo.url || '#';
             offersList.innerHTML += `
                 <div class="offer-simple-card">
-                    <div class="offer-simple-logo"><img src="/src/assets/images/mfo-logos/${mfo.logo}" alt="${mfo.name}"></div>
+                    <div class="offer-simple-logo"><img src="src/assets/images/mfo-logos/${mfo.logo}" alt="${mfo.name}"></div>
                     <div class="offer-simple-title">${mfo.name}</div>
                     <div class="offer-simple-rate">Ставка: <b>${mfo.minRate || '—'}</b></div>
                     <div class="offer-simple-term">Срок: <b>${mfo.term || '—'}</b></div>

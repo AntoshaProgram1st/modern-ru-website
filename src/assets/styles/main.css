@@ -521,7 +521,7 @@ h2 {
 /* ...залишити існуючі стилі для цих блоків, якщо вони вже мінімалістичні... */
 
 .hero-section {
-    background: linear-gradient(90deg, rgba(247, 248, 250, 0.96) 33%, rgba(255, 255, 255, 0.02) 100%), url("/src/assets/images/zastavka.png") center center / cover no-repeat;
+    background: linear-gradient(90deg, rgba(247, 248, 250, 0.96) 33%, rgba(255, 255, 255, 0.02) 100%), url("src/assets/images/zastavka.png") center center / cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
